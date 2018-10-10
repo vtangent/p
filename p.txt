@@ -1,0 +1,6 @@
+CREATE TABLE fuenf (producers VARCHAR, product VARCHAR, amount int); 
+
+INSERT INTO fuenf(producers, product, amount) VALUES  ('hen', 'egg', 12), ('cow', 'milk', 16), ('bees', 'honey', 6), ('sheep', 'wool', 11), ('sunflower', 'sunflower seeds', 200);
+
+SELECT product FROM fuenf WHERE amount = 6;
+
